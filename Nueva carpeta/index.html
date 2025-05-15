@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ChandosoAI.com</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Nunito', sans-serif;
+      background: linear-gradient(to bottom, #90A4AE, #ECEFF1);
+      color: #333;
+      display: flex;
+      height: 120vh;
+    }
+
+    .sidebar {
+      width: 220px;
+      background-color: #F5F5F5;
+      padding: 15px;
+      box-sizing: border-box;
+      overflow-y: auto;
+    }
+
+    .sidebar h2 {
+      font-size: 25px;
+      margin-top: 10px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li {
+      margin: 8px 0;
+      padding: 6px 10px;
+      background-color: #000000;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Sección principal */
+    .main {
+      flex-grow: 1;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .main h1 {
+      font-size: 24px;
+      margin-bottom: 30px;
+      color: #37474F;
+      opacity: 0.8;
+    }
+
+    .button-group {
+      background-color: #C5CAE9;
+      padding: 20px;
+      border-radius: 15px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+      transition: all 0.8s ease;
+    }
+
+    .button-group button {
+      background-color: #81D4FA;
+      color: #263238;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 15px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.6s ease;
+    }
+
+    .button-group button:hover {
+      background-color: #A5D6A7;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>ChandosoGPT</h2>
+    <ul>
+      <!-- Opciones futuras -->
+    </ul>
+  </div>
+  <div class="main">
+    <h1>¿Qué quieres hacer... con calma?</h1>
+    <div class="button-group">
+      <button>Buscar</button>
+      <button>Razonar</button>
+      <button>Investigación en profundidad</button>
+      <button>Crea una imagen</button>
+    </div>
+  </div>
+</body>
+</html>
